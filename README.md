@@ -65,7 +65,7 @@ With our initial idea in place, we began by story-boarding our user journey and 
 ## User story
 Our homepage is simple - a background image with the name of our site clearly displayed. A mouse click on the page reveals the options to login or register a new user:
 
-[image:5775B09D-144F-48CD-84F9-B25BBE20834B-7734-00001D2191E7A54F/AE257F11-6E2B-4EDB-82DD-52E34260CC22.png]
+<img src="src/assets/home-page.png" width="900">
 (img 1: homepage showing Register and Login options)
 
 The registration asks for a unique username, a password & confirmation, email address and a brief bio. Once these details are entered, the user is taken to the login page, then to the index of events.
@@ -74,7 +74,7 @@ On choosing an event, the user is taken to the initial event card. Here they can
 
 From the Navbar, the user can choose the following options: Events,  Create Event, My Profile, All Users or Logout.
 
-[image:A7BDD180-B2A1-4CF8-95F0-598DE0500162-7734-000032761D0CDC98/DC4E317A-9093-42C3-8001-F9AAE99E6F5B.png]
+<img src="src/assets/navbar.png" width="900">
 (img 2: Navbar)
 
 *Stranger Things* Takes the user to the index of events.
@@ -99,7 +99,7 @@ On submission, the user is taken to the events index, where their new event is d
 *Linking Events and Users*
 One of the biggest stumbling blocks we encountered was connecting the user and the events as several functions relied on having the attendees and owner linked to the events  While we reached a working solution, the current code is not as DRY as it could be, nor does it play to the strengths of the technologies used.
 
-[image:E0E4E7FD-385D-49BC-8E14-2235ED34F6BE-7734-00003815ACB4637C/0F7C68FC-EFBB-4E4C-8E98-C5950F72623D.png]
+<img src="src/assets/get-me.png" width="900">
 (img :
 	* getMe - takes the current user, checks to see if they are attending the event they are looking at
 	* isAttending - checks the list of attendees on the event against the current user.
@@ -113,7 +113,7 @@ While a preferred option was suggested by our instructors, there were too many f
 
 Preferred method: add the code below to the user model, setting a virtual field that pulls the user from the event model.
 
-[image:DAE6DBC3-8C55-4F47-8C7F-928E90AFA12C-7734-000020D7BE56A2BD/9AE48BC0-B512-4712-AE1F-8C250FDA21D5.png]
+<img src="src/assets/two-way.png">
 
 This virtual field allows a two-way relationship between the owner and the event, meaning the id of the user can be pulled from the event and vice versa.
 
