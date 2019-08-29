@@ -4,6 +4,8 @@
 ## Brief
 The third project of the GA course is a small group project with the aim of creating a MERN Stack App, utilising a custom built API.
 
+### Timeframe: 7 Days
+
 ## Technical Requirements
 * Build a full-stack application
 * Use an Express API
