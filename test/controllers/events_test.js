@@ -14,7 +14,7 @@ const eventData = {
   date: new Date('08/09/2019'),
   fixed: true ,
   location: 'Richmond',
-  description: 'Join me and my beautiful Chow Chow Lola for a long dong walk in Richmond park, I love a good deep chat about anything or everything (or nothing much!) and I\'m an excellent listener. Lola is very social too but does have a bit of a problem with excitable/jumpy small dogs.',
+  description: 'Join me and my beautiful Chow Chow Lola for a long dong wak in Richmond park, I love a good deep chat about anything or everything (or nothing much!) and I\'m an excellent listener. Lola is very social too but does have a bit of a problem with excitable/jumpy small dogs.',
   startTime: '1200',
   endTime: '1500',
   cost: 0,

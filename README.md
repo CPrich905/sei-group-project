@@ -115,11 +115,6 @@ On submission, the user is taken to the events index, where their new event is d
   * User can choose whether the events they are attending are shown on their profile.
   * User profile to include a private calendar of events
 
-## Wins
-While it was a team effort getting this app up and running, my main areas of focus were the New Activity form and the initial testing.
-
-Creating a new event required the user to input a large amount of data. We wanted to ensure our users were able to quickly and easily input these data fields, not to simply fill in numerous text boxes and so used select boxes filled with preset options, radio buttons, and third party packages such as ```javascript react-calendar``` and ```javascript react-simple-timefield```
-
 ## Major hurdles
 *Linking Events and Users*
 One of the biggest stumbling blocks we encountered was connecting the user and the events as several functions relied on having the attendees and owner linked to the events  While we reached a working solution, the current code is not as DRY as it could be, nor does it play to the strengths of the technologies used.
@@ -163,3 +158,10 @@ This was our first project  working together as a group and using GitHub to coor
 
 ## Unsolved Problems
 While we do not have any unresolved issues by hand in, we felt there were also opportunities to clean up our code. This is something we will have to continue working on independently as we improve our portfolios.
+
+## Wins and Learnings
+I learnt a huge amount during this project and by the end my comfortability with building a full-stack MERN app had increased significantly. While it was a team effort getting this app up and running, my main areas of focus were the New Activity form (with Ola) and writing our tests.
+
+Creating a new event required the user to input a large amount of data. We wanted to ensure our users were able to quickly and easily input these data fields, not to simply fill in numerous text boxes and so used select boxes filled with preset options, radio buttons, and third party packages such as ```react-calendar``` and ```react-simple-timefield```. We tried different JS components, familiarising ourselves with the documentation and testing each before finding the most appropriate for our purpose. I found the experience of identifying and utilising third-party software to be interesting and informative, and something I hope to take in future projects.
+
+Our initial testing phase identified an issue in connecting events and users (see Major Hurdles above). While we were ultimately unable to rectify this issue in time for deployment, it was a strong case for writing tests first, an approach I intend to use where possible in future.
