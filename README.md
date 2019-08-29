@@ -66,18 +66,18 @@ $yarn seed
 Our intention was to develop a friend and activity finder for people living in London, that would allow users to connect with each other based on common interests, not physical appearance or romantic interest.
 
 With our initial idea in place, we began by story-boarding our user journey and identifying the actions required for a Minimum Viable Product.
-	* A database of events for users to attend, visible only after login.
-	* A database of users, visible only after login.
-	* Users must be able to:
-		* Register & login
-		* Request to attend events
-		* Create events
-		* Message other users
-		* /Edit their profile - currently a limited feature/
-	* Event owners must be able to:
-		* Approve attendees
-		* Set private data (e.g. personal address/contact phone number)
-		* /Be able to edit & delete events they own - not a current feature/
+* A database of events for users to attend, visible only after login.
+* A database of users, visible only after login.
+* Users must be able to:
+  * Register & login
+  * Request to attend events
+  * Create events
+  * Message other users
+  * /Edit their profile - currently a limited feature/
+* Event owners must be able to:
+  * Approve attendees
+  * Set private data (e.g. personal address/contact phone number)
+  * /Be able to edit & delete events they own - not a current feature/
 
 
 ## User story
