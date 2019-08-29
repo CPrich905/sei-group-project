@@ -45,6 +45,8 @@ The third project of the GA course is a small group project with the aim of crea
 * React-time-picker, react-calendar, react-moment
 
 ## Using the App
+Deployed link: https://stranger--things.herokuapp.com/
+
 If you would like to run the app yourself, clone this repository and enter the following into your CLI:
 
 To install packages:
@@ -107,14 +109,16 @@ On submission, the user is taken to the events index, where their new event is d
 *Logout:* logs the user out and returns them to the homepage.
 
 ## Future development
-	* Error handling - our errors currently display either in the developer tools or in terminal, but do not pass any of this information back to the user.
-	* Incorporate more events from [The List API](https://api.list.co.uk/)
-	* Search users by interest/tags (currently running, but through the event tags)
-	* User can choose whether the events they are attending are shown on their profile.
-	* User profile to include a private calendar of events
+  * Error handling - our errors currently display either in the developer tools or in terminal, but do not pass any of this information back to the user.
+  * Incorporate more events from [The List API](https://api.list.co.uk/)
+  * Search users by interest/tags (currently running, but through the event tags)
+  * User can choose whether the events they are attending are shown on their profile.
+  * User profile to include a private calendar of events
 
 ## Wins
+While it was a team effort getting this app up and running, my main areas of focus were the New Activity form and the initial testing.
 
+Creating a new event required the user to input a large amount of data. We wanted to ensure our users were able to quickly and easily input these data fields, not to simply fill in numerous text boxes and so used select boxes filled with preset options, radio buttons, and third party packages such as ```javascript react-calendar``` and ```javascript react-simple-timefield```
 
 ## Major hurdles
 *Linking Events and Users*
