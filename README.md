@@ -5,35 +5,25 @@
 The third project of the GA course is a small group project with the aim of creating a MERN Stack App, utilising a custom built API.
 
 ## Technical Requirements
-Build a full-stack application
-
-Use an Express API
-
-Consume the API using a separate front-end, built with React
-
-Be a complete product
-
-Implement thoughtful user stories/wireframes to highlight core MVP
-
-Have a visually impressive design
-
-Be deployed online
-
-Have automated tests for at least one RESTful resource.
+* Build a full-stack application
+* Use an Express API
+* Consume the API using a separate front-end, built with React
+* Be a complete product
+* Implement thoughtful user stories/wireframes to highlight core MVP
+* Have a visually impressive design
+* Be deployed online
+* Have automated tests for at least one RESTful resource.
 
 ## Deliverables
-A working app
-
-A link to the hosted working app
-
-A git repository on Github
-
-This Readme
+* A working app
+* A link to the hosted working app
+* A git repository on Github
+* This Readme
 
 ## Team
-Ola - [leealex88 · GitHub](https://github.com/leealex88)
-Lily - [Lily-La-Day · GitHub](https://github.com/Lily-La-Day)
-Charles - [CPrich905 · GitHub](https://github.com/CPrich905)
+- Ola - [leealex88 · GitHub](https://github.com/leealex88)
+- Lily - [Lily-La-Day · GitHub](https://github.com/Lily-La-Day)
+- Charles - [CPrich905 · GitHub](https://github.com/CPrich905)
 
 ---
 ## Technologies used
@@ -53,6 +43,24 @@ Charles - [CPrich905 · GitHub](https://github.com/CPrich905)
 * Mapbox
 * Mongoose, mongoose-unique-validator
 * React-time-picker, react-calendar, react-moment
+
+## Using the App
+If you would like to run the app yourself, clone this repository and enter the following into your CLI:
+
+To install packages:
+```
+$yarn
+```
+To run the database:
+```
+$mongod
+```
+To start front and back end in local host, and seed the database:
+```
+$yarn serve:front
+$yarn serve:back
+$yarn seed
+```
 
 ## Our Approach
 Our intention was to develop a friend and activity finder for people living in London, that would allow users to connect with each other based on common interests, not physical appearance or romantic interest.
@@ -104,6 +112,9 @@ On submission, the user is taken to the events index, where their new event is d
 	* Search users by interest/tags (currently running, but through the event tags)
 	* User can choose whether the events they are attending are shown on their profile.
 	* User profile to include a private calendar of events
+
+## Wins
+
 
 ## Major hurdles
 *Linking Events and Users*
