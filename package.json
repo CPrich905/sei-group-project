@@ -47,7 +47,7 @@
     "jsonwebtoken": "^8.5.1",
     "mapbox-gl": "^1.1.0",
     "moment-timezone": "^0.5.26",
-    "mongoose": "^5.6.3",
+    "mongoose": "^5.7.5",
     "mongoose-unique-validator": "^2.0.3",
     "react": "^16.7.0",
     "react-calendar": "^2.19.0",
